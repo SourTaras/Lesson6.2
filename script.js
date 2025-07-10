@@ -9,3 +9,10 @@ function toggleAnswer(id) {
         answer.style.display = "none"
     }
 }
+function sharePage() {
+    navigator.share({
+        title:"Тест на IQ",
+        url: window.location.href
+    })
+    
+}
